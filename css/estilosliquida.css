@@ -1,0 +1,267 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: Gotham, "Gotham Black", "Gotham Thin", "Gotham Ultra", "Gotham XLight";
+    font-style: normal;
+    font-size: 12px;
+}
+#contenedor {
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+	
+}
+#contenedor header {
+    width: 100%;
+    height: 10vh;
+    float: left;
+    line-height: 15vh;
+    text-align: center;
+	
+}
+#contenedor #logo {
+    width: 35%;
+    height: 10vh;
+    background-color: #D2B3BA;
+    margin: 0 auto;
+    float: left;
+    background-image: url(../img/logo1.png);
+    background-position: 44%;
+    background-repeat: no-repeat;
+    background-position: 44% 0vh;
+    background-size: contain;
+	box-shadow: 10px 20px 20px #000000;
+	
+  
+}
+#contenedor header nav {
+    height: 10vh;
+    width: 65%;
+    float: left;
+}
+header nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    width: 33.3%;
+    height: 10vh;
+    background-color: #C9BEBF;
+    float: left;
+    text-align: center;
+    line-height: 10vh;
+	box-shadow: 10px 20px 20px #000000;
+		
+}
+ul li a {
+    color: #131310;
+    text-decoration: none;
+    display: block;
+
+		
+}
+ul li #home {
+}
+ul li #btn1 {
+    font-size: 16px;
+}
+
+ul li #btn1:hover {
+    background-color: #65181A;
+    color: #FFFFFF;
+}
+
+ul li #btn2 {
+    font-size: 16px;
+}
+ul li #btn2:hover {
+    background-color: #65181A;
+    color: #FFFFFF;
+}
+
+ul li #btn3 {
+    font-size: 16px;
+}
+ul li #btn3:hover {
+    color: #FFFFFF;
+    background-color: #65181A;
+}
+
+#contenedor main {
+	
+    background-color: #65181A;
+    width: 100%;
+    height: 650px;
+    float: left;
+    background-size: cover;
+    -webkit-box-shadow: 1px 1px 2px #000000;
+    box-shadow: 1px 1px 2px #000000;
+    margin: 0 auto;
+    opacity: 1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 100%;
+	
+}
+
+#contenedor #main-home {
+    background-image: url(../img/127.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+#contenedor main h1 {
+    color: #A3A3A3;
+    font-family: alike;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    font-size: 130%;
+    text-align: center;
+    line-height: 140%;
+    width: 35%;
+    height: 40%;
+    float: right;
+    margin-right: 100px;
+    margin-top: 50px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+		
+	}
+#contenedor #nosotros {
+    background-color: #6F3737;
+	
+}
+#contenedor #nosotros #fotos_main_nosotros {
+    width: 90%;
+    height: 22px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    right: 3%;
+    float: left;
+}
+#nosotros #fotos_main_nosotros img {
+    float: left;
+	box-shadow: 10px 20px 30px #000000;
+
+}
+#nosotros #fotos_main_nosotros img_2 {
+    float: left;
+	box-shadow: 10px 20px 30px #000000;
+}
+
+
+#nosotros #fotos_main_nosotros img_3 {
+    float: left;
+	box-shadow: 10px 20px 30px #000000;
+}
+#nosotros #fotos_main_nosotros img.aqe {
+    float: left;
+	box-shadow: 10px 20px 30px #000000;
+}
+
+
+
+
+#contenedor #nosotros h1 {
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 200%;
+    text-align: center;
+    text-shadow: 1px 1px 10px #000000;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 0 auto;
+    padding: 0 auto;
+    top: 59px;
+    left: -30%;
+}
+#contenedor #nosotros h2 {
+    color: #A3A3A3;
+    font-family: alike;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 121%;
+    text-align: center;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 0 auto;
+    position: relative;
+    top: 20%;
+    left: 17%;
+    width: 74%;
+}
+#contenedor #nosotros img {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    top: 175px;
+    float: left;
+}
+
+
+#contenedor footer {
+	
+
+    width: 100%;
+    height: 25vh;
+    background-color: #ACACAC;
+    background-image: url(../img/logo3.svg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 150px 100px;
+    margin: 0 auto;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+}
+#contenedor footer #contacto {
+    color: #000000;
+    font-family: alike;
+    font-style: normal;
+    text-align: center;
+    top: 81px;
+    position: relative;
+    font-size: 75%;
+}
+#contenedor footer #e-mail {
+    color: #000000;
+    font-size: 75%;
+    font-family: alike;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 0px;
+    position: relative;
+    top: 81px;
+}
+#contenedor footer #copryght {
+    position: relative;
+    top: 85px;
+    text-align: center;
+    color: #000000;
+    font-family: alike;
+    font-style: normal;
+    font-size: 70%;
+}

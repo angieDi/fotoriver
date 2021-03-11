@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+}
+
+
+#CONTENEDOR {
+    width: 100%;
+    height: 210vh;
+    margin: auto;
+}
+#CONTENEDOR header {
+    width: 100%;
+    height: 10vh;
+    background-color: #614546;
+    float: left;
+    position: fixed;
+    z-index: 100;
+    -webkit-box-shadow: 0px 0px 26px;
+    box-shadow: 0px 0px 26px;
+}
+#CONTENEDOR header #LOGO {
+    height: 10vh;
+    width: 30%;
+    background-color: #D3B6B7;
+    float: left;
+}
+header #LOGO img {
+    width: 44%;
+    height: 7vh;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 27%;
+    position: relative;
+    left: 0%;
+    float: left;
+}
+
+
+#CONTENEDOR header #BARRA {
+    width: 70%;
+    height: 10vh;
+    background-color: #CDA5A6;
+    float: left;
+    text-align: center;
+    line-height: 10vh;
+    text-decoration: none;
+}
+header #BARRA ul {
+    list-style-image: none;
+    list-style-type: none;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+}
+#BARRA ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+#BARRA ul #B1 {
+    width: 33.3%;
+    height: 10vh;
+    background-color: #C8C0C0;
+    float: left;
+    color: #000000;
+}
+#BARRA ul #B2 {
+    width: 33.3%;
+    height: 10vh;
+    background-color: #C8C0C0;
+    float: left;
+    color: #000000;
+}
+#BARRA ul #B3 {
+    float: left;
+    width: 33.3%;
+    height: 10vh;
+    background-color: #C8C0C0;
+    color: #000000;
+}
+#BARRA ul #B1:hover, #BARRA ul #B2:hover, #BARRA ul #B3:hover, #BARRA ul #B4:hover {
+    background-color: #DC696B;
+}
+#CONTENEDOR main {
+    width: 100%;
+    background-color: #F1DADA;
+    float: left;
+    height: 200vh;
+    margin-top: 10vh;
+}
+#CONTENEDOR main #PROM {
+    background-color: #F1DADA;
+    width: 100%;
+    height: 25vh;
+    float: left;
+    z-index: 100;
+}
+main #PROM h1 {
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    float: left;
+    text-align: center;
+    line-height: 10vh;
+    display: block;
+    background-color: #F1DADA;
+}
+
+
+main #PROM h2 {
+    width: 100%;
+    height: 15vh;
+    text-align: center;
+    color: #000000;
+    font-size: 103%;
+    font-weight: bolder;
+    line-height: 134%;
+    float: left;
+    margin-top: 14vh;
+}
+#CONTENEDOR main #FOTOS {
+    width: 100%;
+    height: 150vh;
+    margin-top: 20%;
+}
+#FOTOS #F1 #F1A {
+    width: 30%;
+    height: 75vh;
+    float: left;
+}
+
+
+#F1 #F1A img {
+    width: 100%;
+    height: 75vh;
+    padding-top: 9%;
+    padding-right: 19%;
+    padding-bottom: 9%;
+    padding-left: 19%;
+    margin-left: 10%;
+}
+#FOTOS #F1 #F1B {
+    width: 30%;
+    height: 75vh;
+    float: left;
+}
+
+#F1 #F1B img {
+    width: 100%;
+    height: 75vh;
+    padding-top: 9%;
+    padding-right: 19%;
+    padding-bottom: 9%;
+    padding-left: 19%;
+    margin-left: -10%;
+}
+#FOTOS #F1 #F1C {
+    width: 40%;
+    height: 75vh;
+    float: left;
+}
+
+#F1 #F1C h1 {
+    text-align: center;
+    margin-top: 24%;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-right: 15%;
+    font-size: 200%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+#F1 #F1C h2 {
+    text-align: center;
+    margin-right: 15%;
+    font-size: 118%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 5vh;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: 123%;
+}
+#FOTOS #F1 #F2A {
+    width: 30%;
+    height: 75vh;
+    float: left;
+}
+
+#F1 #F2A img {
+    width: 100%;
+    height: 75vh;
+    padding-top: 9%;
+    padding-right: 19%;
+    padding-bottom: 9%;
+    padding-left: 19%;
+    margin-left: 10%;
+}
+#FOTOS #F1 #F2B {
+    width: 30%;
+    height: 75vh;
+    float: left;
+}
+
+
+#F1 #F2B img {
+    width: 100%;
+    height: 75vh;
+    padding-top: 9%;
+    padding-right: 19%;
+    padding-bottom: 9%;
+    padding-left: 19%;
+    margin-left: -10%;
+}
+#FOTOS #F1 #F2C {
+    height: 70vh;
+    width: 40%;
+    float: left;
+}
+#F1 #F2C h1 {
+    text-align: center;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 200%;
+    margin-top: 16%;
+    margin-right: 15%;
+    font-weight: bold;
+    padding-left: 0%;
+}
+#F1 #F2C h2 {
+    text-align: center;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 118%;
+    line-height: 123%;
+    margin-top: 10%;
+    margin-right: 15%;
+}
+
+#CONTENEDOR footer {
+    height: 35vh;
+    width: 100%;
+    float: left;
+    background-color: #C8C0C0;
+}
+#CONTENEDOR footer h1 {
+    margin-left: 18%;
+    margin-top: 3vh;
+    background-color: #270708;
+    display: inline-block;
+    width: 15%;
+    height: 5vh;
+    text-align: center;
+    line-height: 5vh;
+    color: #EDCDCE;
+    position: absolute;
+    top: 204vh;
+    left: 3%;
+    border-radius: 26%;
+    -webkit-box-shadow: 0px 10px 25px #130D0D;
+    box-shadow: 0px 10px 25px #130D0D;
+}
+#CONTENEDOR footer ul {
+    margin-top: 12vh;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 145%;
+    line-height: 150%;
+    margin-left: 16%;
+    list-style-type: none;
+}
+#CONTENEDOR footer h2 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-left: 45%;
+    margin-top: -8vh;
+}
